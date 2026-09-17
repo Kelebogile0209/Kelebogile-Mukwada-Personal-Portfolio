@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Kelebogile Mukwada</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">KM<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="projects.html">Skills & Projects</a><a class="active" href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero container reveal">
+      <p class="eyebrow">CONTACT DETAILS</p>
+      <h1>Let's start<br><span>a conversation.</span></h1>
+      <p>Have an opportunity, project or simply want to connect? Send me a message.</p>
+    </section>
+
+    <section class="section container contact-layout">
+      <div class="contact-info reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>I'd love to hear from you.</h2>
+        <p>Replace the details below with your preferred professional contact information before publishing the site.</p>
+        <div class="contact-items">
+          <div><span>✉</span><div><small>Email</small><strong>Kele.Mukwada@gmail.com</strong></div></div>
+          <div><span>⌖</span><div><small>Location</small><strong>Windhoek, Namibia</strong></div></div>
+          <div><span>in</span><div><small>LinkedIn</small><strong>https://www.linkedin.com/in/kelebogile-mukwada-1325522b7/</strong></div></div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Tell me a little about your message..." required></textarea>
+        <button class="btn primary" type="submit">Send message →</button>
+        <p class="form-note">Demo form: connect this to a backend or form service to receive submissions.</p>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Kelebogile Mukwada</p><p>Built with HTML, CSS & JavaScript.</p></div></footer>
+</body>
+</html>

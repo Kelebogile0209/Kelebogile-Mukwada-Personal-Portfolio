@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills & Projects | Kelebogile Mukwada</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">KM<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a class="active" href="projects.html">Skills & Projects</a><a href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero container reveal">
+      <p class="eyebrow">WHAT CAN SHE DO?</p>
+      <h1>Skills, projects<br><span>& learning.</span></h1>
+      <p>A growing toolkit built through university work, online learning and hands-on practice.</p>
+    </section>
+
+    <section class="section container">
+      <div class="filter-bar reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="technical">Technical</button>
+        <button class="filter" data-filter="soft">Soft skills</button>
+        <button class="filter" data-filter="learning">Learning</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card reveal" data-category="technical">
+          <div class="project-number">01</div><div class="project-icon">⌘</div>
+          <p class="card-label">TECHNICAL</p><h3>Portfolio Website</h3>
+          <p>Designing and developing a responsive personal website using HTML, CSS and JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card reveal" data-category="technical">
+          <div class="project-number">02</div><div class="project-icon">▣</div>
+          <p class="card-label">TECHNICAL</p><h3>Programming Practice</h3>
+          <p>Building confidence with programming concepts, logic and problem-solving through coursework and practice.</p>
+          <div class="tags"><span>Programming</span><span>Problem solving</span></div>
+        </article>
+        <article class="project-card reveal" data-category="learning">
+          <div class="project-number">03</div><div class="project-icon">↗</div>
+          <p class="card-label">LEARNING</p><h3>freeCodeCamp</h3>
+          <p>Using structured online resources to learn coding and strengthen web-development skills.</p>
+          <a href="https://www.youtube.com/@freecodecamp" target="_blank" rel="noopener" class="text-link">Visit resource →</a>
+        </article>
+        <article class="project-card reveal" data-category="learning">
+          <div class="project-number">04</div><div class="project-icon">◇</div>
+          <p class="card-label">LEARNING</p><h3>Codecademy & Udemy</h3>
+          <p>Using online courses to explore programming languages and develop new technical skills.</p>
+          <div class="tags"><span>Courses</span><span>Self-learning</span></div>
+        </article>
+        <article class="project-card reveal" data-category="soft">
+          <div class="project-number">05</div><div class="project-icon">+</div>
+          <p class="card-label">SOFT SKILLS</p><h3>Communication</h3>
+          <p>Developing strong communication and customer-service skills while learning to work effectively with others.</p>
+          <div class="tags"><span>Communication</span><span>Teamwork</span></div>
+        </article>
+        <article class="project-card reveal" data-category="soft">
+          <div class="project-number">06</div><div class="project-icon">◎</div>
+          <p class="card-label">SOFT SKILLS</p><h3>Adaptability</h3>
+          <p>Comfortable learning new tasks, adapting to different environments and working under pressure.</p>
+          <div class="tags"><span>Adaptability</span><span>Reliability</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container resource-section">
+        <div class="reveal"><p class="eyebrow">RESOURCES THAT HELP ME GROW</p><h2>Keep learning.<br>Keep building.</h2></div>
+        <div class="resource-list reveal">
+          <a href="https://www.youtube.com/@freecodecamp" target="_blank" rel="noopener"><span>freeCodeCamp</span><b>↗</b></a>
+          <a href="https://www.codecademy.com/" target="_blank" rel="noopener"><span>Codecademy</span><b>↗</b></a>
+          <a href="https://www.udemy.com/" target="_blank" rel="noopener"><span>Udemy</span><b>↗</b></a>
+          <a href="https://www.youtube.com/watch?v=YSs41NsYYwE" target="_blank" rel="noopener"><span>Self-development video</span><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Kelebogile Mukwada</p><p>Built with HTML, CSS & JavaScript.</p></div></footer>
+</body>
+</html>
